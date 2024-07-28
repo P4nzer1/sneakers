@@ -9,14 +9,33 @@ body {
 }
 
 .container {
-    flex-direction: row;
+    max-width: 1440px;
+    width: 90%;
+    min-width: 93px;
+    padding: 20px 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
-.header {
-    flex-direction: row;
+.header {  
     
 }
 
 .nav {
-    display: flex;
+    
+    
+}
+.button {
+    display: flex; 
     flex-direction: row;
+
+    &__main {
+        list-style-type: none;
+        text-decoration: none;
+        margin-right: 100px;
+    }
+
 }
