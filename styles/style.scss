@@ -1,6 +1,12 @@
 @use "globals.scss";
 
-
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
 body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
@@ -9,33 +15,56 @@ body {
 }
 
 .container {
-    max-width: 1440px;
-    width: 90%;
-    min-width: 93px;
-    padding: 20px 0;
+    max-width: 1980px;
+    width: 100%;
+    
+    padding: 50px 70px;
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
     gap: 30px;
 }
-.header {  
-    
+.head {  
+    display: flex; 
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.main {
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 50px;
+
 }
 
 .nav {
+
+    padding-left: 100px;
     
-    
+
 }
 .button {
     display: flex; 
     flex-direction: row;
+    padding-left: 40px;
 
     &__main {
         list-style-type: none;
         text-decoration: none;
-        margin-right: 100px;
+        margin-right: 40px;
+        
+    }
+    &__main-serch {
+        list-style-type: none;
+        text-decoration: none;
+        
+
     }
 
+}
+.serch {
+    background: none;
+    padding-left: 250px;
 }
