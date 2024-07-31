@@ -15,7 +15,7 @@ body {
 .container {
   max-width: 1980px;
   width: 100%;
-  padding: 50px 70px;
+  padding: 50px 0px 20px 0px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -23,40 +23,39 @@ body {
   gap: 30px;
 }
 
-.head {
+.nav {
   display: flex;
   flex-direction: row;
-  padding-top: 20px;
-}
-
-.main {
-  list-style-type: none;
-  text-decoration: none;
-  padding-right: 50px;
-}
-
-.nav {
-  padding-left: 100px;
 }
 
 .button {
   display: flex;
   flex-direction: row;
-  padding-left: 40px;
+  list-style-type: none;
+}
+.button__name {
+  text-decoration: none;
+  padding-right: 120px;
 }
 .button__main {
-  list-style-type: none;
   text-decoration: none;
-  margin-right: 40px;
+  padding-left: 50px;
 }
-.button__main-serch {
-  list-style-type: none;
+.button__search {
+  background: none;
+  padding-left: 150px;
   text-decoration: none;
 }
 
-.serch {
-  background: none;
-  padding-left: 250px;
+.header {
+  display: contents;
+  justify-content: space-between;
+  align-items: first baseline;
+  flex-direction: row;
+}
+.header__img {
+  width: 100%;
+  padding: 0px 30px 0px 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
